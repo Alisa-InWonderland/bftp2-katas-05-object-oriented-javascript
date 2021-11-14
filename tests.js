@@ -68,22 +68,21 @@ describe("🐸 Salto de la rana", () => {
 
 	class Frog {
 
-
 		constructor() {
-			this.i = 0;
+			this.n = 0;
 		}
 
 		jump() {
 
-			while (this.i < 18) {
-				this.i += 3;
-				return (this.i);
+			while (this.n < 16) {
+				this.n += 3;
+				return (this.n);
 			}
-			this.i += 2;
+			this.n += 2;
 		}
 
 		getPosition() {
-			{ return this.i; }
+			{ return this.n; }
 		}
 
 	}
